@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha um número de 0 a 10"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Jogar"
+        android:id="@+id/bt_jogar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:id="@+id/tv_resultado"
+        android:textSize="20sp"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
